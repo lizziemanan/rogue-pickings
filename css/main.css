@@ -1,0 +1,134 @@
+/*****Base Styles******/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+@font-face {
+    font-family: wisdom;
+    src: url('../fonts/wisdom.otf') format('opentype');
+}
+
+/*****GRID*****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.third-width{
+    width: 350px;
+    float: left;
+    border-top: 1px solid #dedbdc;
+    border-bottom: 1px solid #dedbdc;
+}
+
+/*****HEADER*****/
+
+#title {
+    width: 600px;
+    float: left;
+    font-size: 30px;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+nav {
+    float: right;
+    font-size: 14px;
+    line-height: 23px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    width: 600px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #77a466;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/*****TOP SECTION*****/
+
+main img{
+    border-top: 5px solid #77a466;
+    border-bottom: 5px solid #77a466;
+}
+
+h2 {
+    color: #77a466;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+
+main p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+/*****BOTTOM SECTION*****/
+
+h5 {
+    font-size: 12px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+#border {
+    border-right: 1px solid #dedbdc;
+}
+
+.special {
+    color: #77a466;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+#buffer {
+    padding-bottom: 40px;
+}
+
+#reviews {
+    font-size: 16px;
+    line-height: 21px;
+}
+
+#decorate {
+    border-right: 1px solid #dedbdc;
+    padding: 0 30px 0 30px;
+}
+
+#contact {
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 54px;
+}
+
+#padding {
+    padding-left: 30px;
+}
+
+footer {
+    font-size: 16px;
+    line-height: 23px;
+    float: left;
+    margin-left: 741px;
+}
+
+footer span {
+    color: #77a466;
+    font-family: wisdom;
+}
